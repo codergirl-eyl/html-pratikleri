@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buton</title>
+    </head>
+    <body>
+            <button onclick="tikla()" style="background-color: rgb(57, 173, 190);
+            color: rgb(228, 118, 118); border-radius: 5px;"
+            >Tıkla</button>
+            <button disabled>Tıklama</button>
+
+        <p id="mesaj">Butona bas</p>
+        <script>
+            function tikla()
+            {
+                document.getElementById("mesaj").innerHTML = "Butona tıklandı"
+            }
+        </script>
+    </body>
+</html>

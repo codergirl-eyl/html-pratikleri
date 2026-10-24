@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="isim">Ad:</label>
+            <input type="text" name="isim" id="isim"
+            placeholder="Adınızı giriniz" required>
+
+            <br><br>
+
+            <label for="soyad">Soyad:</label>
+            <input type="text" name="soyad" id="soyad"
+            placeholder="Soyadınızı giriniz">
+
+            <br><br>
+
+            <label for="sifre">Şifre:</label>
+            <input type="password" name="sifre" id="sifre"
+            placeholder="*******" maxlength="8" required>
+
+            <br><br>
+
+            <label for="eposta">E-posta:</label>
+            <input type="email" name="eposta" id="eposta"
+            placeholder="E-posta adresinizi giriniz" required>
+
+            <br><br>
+
+            <label for="telefon">Telefon:</label>
+            <input type="tel" name="telefon" id="telefon"
+            placeholder="Telefon numaranızı giriniz" required>
+
+            <br><br>
+
+            <label for="tarih">Tarih:</label>
+            <input type="date" name="tarih" id="tarih" required>
+
+            <br><br>
+
+            <label for="kardes">Kardeş sayısı:</label>
+            <input type="number" name="kardes" id="kardes"
+            min="0" max="10" required>
+
+            <br><br>
+
+            <label for="cinsiyet">Cinsiyet:</label>
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+            <label for="kadin">Kadın</label>
+            <input type="radio" name="cinsiyet" id="kadın" value="kadın">
+
+            <br><br>
+
+            <label for="sigorta">Sigorta:</label>
+            <select name="sigorta" id="sigorta">
+                <option value="ssk">SSK</option>
+                <option value="bagkur">Bağkur</option>
+                <option value="emekli sandigi">Emekli Sandığı</option>
+            </select>
+
+            <br><br>
+
+            <label for="aktif">Aktif olarak çalışıyor</label>
+            <input type="checkbox">
+
+            <br><br>
+
+            <textarea name="adres" id="adres" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="file" accept=".pdf">
+
+            <br><br>
+
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>
