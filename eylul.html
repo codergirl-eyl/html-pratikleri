@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form Elemanlarını Öğreniyorum </title>
+    </head>
+    <body bgcolor="#f0f4f8">
+        <center>
+            <br>
+            <table width="850px" bgcolor="#ffffff" cellpadding="18" cellspacing="0">
+                <!--ÜST BAŞLIK-->
+                <tr bgcolor="17365d">
+                    <td align="center">
+                        <font color="white" size="6">
+                            &#9733; Topluluk Kayıt Formu &#9733;
+                        </font>
+                        <br> <br>
+                        <font color="d5e8ff" size="3">
+                            Teknoloji ve Yazılım Eğitimi
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="#" method="get">
+                            <fieldset>
+                                <legend> <b> Kişisel Bilgiler</b> </legend>
+                                <table width="100%" cellpadding="9">
+                                    <tr>
+                                        <td width="35%">
+                                            <label for="ad">
+                                                Adınız Soyadınız:
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="ad" name="ad" 
+                                            placeholder="Adınızı yazınız" size="35"
+                                            maxlength="40" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                           <label for="eposta">
+                                            E-posta:
+                                           </label> 
+                                        </td>
+                                        <td>
+                                            <input type="email" id="mail" name="mail" 
+                                            placeholder="abc123@gmail.com" size="35"
+                                            required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="sifre">
+                                                Şifre:
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <input type="password" id="sifre" name="sifre"
+                                            size="35" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="dogum">
+                                                Doğum Tarihi:
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <input type="date" id="dogum" name="dogum">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Cinsiyet </td>
+                                        <td>
+                                            <label>
+                                                <input type="radio" name="cinsiyet" value="kadin"> Kadın
+                                            </label>
+                                            <label>
+                                            <input type="radio" name="cinsiyet" value="erkek"> Erkek
+                                            </label>
+                                            <label>
+                                            <input type="radio" name="cinsiyet" value="belirtmekistemiyor"> Belirtmek istemiyor
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Eğitim Seçiniz: </td>
+                                        <td>
+                                            <select name="egitim">
+                                                <option value="1"> Python </option>
+                                                <option value="2"> HTML/CSS </option>
+                                                <option value="3"> Robotik Kodlama </option>
+                                                <option value="4"> Yapay Zeka </option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> İlgi Alanlarınız: </td>
+                                        <td>
+                                            <input type="checkbox" name="ilgi" value="spor"> Spor
+                                            <input type="checkbox" name="ilgi" value="muzik"> Müzik
+                                            <input type="checkbox" name="ilgi" value="kitap"> Kitap okumak
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Teknolojiye İlginiz: </td>
+                                        <td>
+                                            Düşük <input type="range" name="ilgi" min="0" max="100"> Yüksek
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Renk Seçiniz: </td>
+                                        <td>
+                                            <input type="color" name="renk" value="#2463a6">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> Profil Fotoğrafı Yükleyiniz: </td>
+                                        <td>
+                                            <input type="file" name="resim" multiple accept=".png">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" colspan="2">
+                                            <button type="submit"> BAŞVURUYU GÖNDER </button>
+                                            <button type="reset"> FORMU TEMİZLE </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
